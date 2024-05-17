@@ -41,28 +41,81 @@ Answer the following questions in the provided markdown file before turning in t
 
 ## Notes
 
-All student notes should be written here.
+Objects are fundamentals and very important because:
 
-How to write `Code Examples` in markdown
+> It helps organize data
+> makes code reusable to reduce redundancy
+> inherit properties and methods from other objects (prototypal inheritance)
+> able to use built-in objects - Math, Date, Array, and String
 
-for JS:
+Creating Objects
 
-```javascript
-const data = 'Howdy';
+1. Object Literal Syntax >> Used 95% of the time. >> common
+
+```TS
+const player = {
+  firstName: 'Jesus',
+  lastName: 'Rodriguez-Luna'
+};
 ```
 
-for HTML:
+2. Object Constructor - keyword 'new' with the object constructor to create an object
 
-```html
-<div>
-  <p>This is text content</p>
-</div>
+```TS
+const player = new Object();
+player.firstName = 'Aaron';
+player.lastName = 'Judge';
 ```
 
-for CSS:
+3. Object.create() - creates new objects, using an existing object as prototype of the newly object
 
-```css
-div {
-  width: 100%;
+```TS
+const prototypePlayer = {
+  firstName: 'Jesus',
+  lastName: 'Rodriguez-Luna',
+};
+
+const player = Object.create(prototypePlayer);
+```
+
+4. Class Syntax
+
+```TS
+class Player {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
 }
+
+const player = new Player('Jesus', 'Rodriguez-Luna');
+```
+
+Accessing and Creating properties in objects
+
+> Use the dot or bracket notation.
+
+To delete a property, use the keyword 'delete' followed by the property of the object you want
+to delete.
+
+Creating interface
+
+> have the keyowrd 'interface' followed by the name of the variable, curly brace, and add property.
+
+```TS
+interface Player {
+  firstName: string;
+  lastName: string;
+  position?: string;
+  team?: string;
+}
+```
+
+to annotate your object with an interface, do:
+
+```TS
+const player: Player = {
+  firstName: 'Jesus',
+  lastName: 'Rodriguez-Luna',
+};
 ```
