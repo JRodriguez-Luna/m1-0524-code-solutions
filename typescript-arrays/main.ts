@@ -9,6 +9,7 @@ console.log(`America is ${colors[0]}, ${colors[1]}, and ${colors[2]}.`);
 colors[2] = 'green';
 
 // second template literal interpolating
+// The log method of the console object is calling a argument: template literal with the values: colors[0], colors[1], and colors[2].
 console.log(`Mexico is ${colors[0]}, ${colors[1]}, and ${colors[2]}.`);
 
 console.log('value of colors:', colors);

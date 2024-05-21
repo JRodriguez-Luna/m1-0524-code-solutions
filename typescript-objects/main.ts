@@ -1,9 +1,10 @@
 // Student Object
+// A new interface StudentProps is being declared
 interface StudentProps {
-  firstName: string;
+  firstName: string; // The firstName property will have a value of type string
   lastName: string;
   age: number;
-  livesInIrvine?: boolean;
+  livesInIrvine?: boolean; // The optional property livesInIrvine will have a value of type boolean
   previousOccupation?: string;
 }
 
@@ -23,13 +24,16 @@ interface Pet {
 }
 
 // Creating a student object using literal notation
+// A new object StudentProps is being assigned to the variable student
 const student: StudentProps = {
+  //  The string is being assigned to the property firstName
   firstName: 'Jesus',
   lastName: 'Rodriguez-Luna',
   age: 24,
 };
 
 // Using template literals to interpolate and log the student's full name
+// A template literal interpolating is being assigned to the variable fullName of type string
 const fullName: string = `${student.firstName} ${student.lastName}`;
 console.log('Full Name:', fullName);
 
