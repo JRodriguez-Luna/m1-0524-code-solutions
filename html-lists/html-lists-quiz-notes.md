@@ -6,7 +6,11 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What is the difference between an ordered list and an unordered list in HTML?
 
+  > Ordered list creates a lists where each item is numbered.
+  > Unordered list creates a lists where each item is marked with bullets or other symbols
+
 - Is an HTML list a block element or an inline element?
+  > A block element
 
 ## Notes
 
