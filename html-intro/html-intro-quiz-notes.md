@@ -27,11 +27,11 @@ Answer the following questions in the provided markdown file before turning in t
 
 - Give five examples of HTML element types.
 
-  > <!DOCTYPE html> ->  declares doc type and version of HTML.
-  > <html>  ->  root element of HTML page.
-  > <head>  ->  contains meta-info about the doc as its title and link to CSS file. This does not get displayed
-  > <title> ->  specifies a title for the doc in the browser's title bar or tab.
-  > <body>  ->  displays visible content on the page such as: text, images, links, tables, and lists.
+  > <h1> - <h6> Heading Elements
+  > <p> Paragraph Element
+  > <a> Anchor Element
+  > <img> Image Element
+  > <ul>, <ol>, <li> List Elements
 
 - What is the purpose of HTML attributes?
 
