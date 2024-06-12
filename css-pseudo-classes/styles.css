@@ -1,0 +1,23 @@
+/* Table Head w/ black bg and centered text */
+.table-head {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Every other table row grey background color */
+.striped-row > tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+/* Modify button */
+.custom-button {
+  width: 100px;
+  height: 30px;
+}
+
+.custom-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
