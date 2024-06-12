@@ -12,7 +12,7 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What CSS property controls the font used for the text inside an element?
 
-  > color
+  > font-family
 
 - Name three different types of values you can use to specify colors in CSS.
   > name, HEX, RGB
