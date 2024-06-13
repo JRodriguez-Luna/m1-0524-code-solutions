@@ -1,0 +1,76 @@
+/* Center text in the body */
+body {
+  text-align: center;
+  font-family: BrandonGrotesque-Medium, sans-serif; /* Not working? */
+}
+
+/* Grouped Uppercase */
+.custom-heading,
+form.custom-form div > label,
+button.submit {
+  text-transform: uppercase;
+}
+
+/* Custom heading for learn more */
+.custom-heading {
+  font-size: 16px;
+  color: #ed6862;
+  padding: 15px 20px 0 50px;
+  margin-top: 30px;
+}
+
+/* For form elements to align left */
+.custom-form {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Style for input and select elements */
+input,
+select {
+  width: 350px;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Specific style for select with class number-of-engineers */
+select.number-of-engineers {
+  background-color: rgb(231, 231, 231);
+}
+
+/* Padding for container inside form */
+form > .container {
+  padding-top: 6px;
+}
+
+/* Labels in uppercase */
+form.custom-form div > label {
+  font-size: 10px;
+  padding-left: 10px;
+  color: black;
+}
+
+/* Custom button for submit */
+button.submit {
+  width: 90px;
+  height: 30px;
+  background-color: #ec5d57;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-left: 255px;
+}
+
+/* Hover effect for submit button */
+button.submit:hover {
+  background-color: #ac3834;
+}
+
+/* Focused Clicked */
+button.submit:focus {
+  background-color: #802b28;
+}
