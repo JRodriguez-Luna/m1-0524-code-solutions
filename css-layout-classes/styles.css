@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  width: 800px; /* making it align */
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.row {
+  display: flex; /* Flow Horizontally */
+  justify-content: center;
+}
+
+.column {
+  width: 800px;
+}
+
+.content {
+  padding: 5px;
+}
+
+.content img {
+  width: 100%;
+}
