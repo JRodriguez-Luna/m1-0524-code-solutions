@@ -1,0 +1,42 @@
+body {
+  background-color: #1996da;
+  color: white;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  width: calc(200% / 3.5);
+}
+
+/* DO NOT CHANGE THIS!! */
+.custom-img {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100px;
+  margin: 0 100px;
+  position: relative;
+}
+
+.custom-text {
+  width: 300px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.custom-img img {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: calc(100% / 4);
+  left: calc(100% / 4);
+}
