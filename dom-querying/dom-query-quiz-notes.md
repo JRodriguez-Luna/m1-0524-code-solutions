@@ -5,45 +5,56 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - Why do we log things to the console?
-  >  We log to the console to check and understand what our code is doing.
+
+  > We log to the console to check and understand what our code is doing.
 
 - What is a "model"?
-  >   In the context of the DOM, "model" refers to the web page structured as a tree of objects. The HTML document is the root, and other elements are branches and leaves.
+
+  > In the context of the DOM, "model" refers to the web page structured as a tree of objects. The HTML document is the root, and other elements are branches and leaves.
 
 - Which "document" is being referred to in the phrase Document Object Model?
-  >  "Document" here refers to the entire web page loaded in the browser. It's represented as a tree of objects that we can manipulate with JavaScript.
+
+  > "Document" here refers to the entire web page loaded in the browser. It's represented as a tree of objects that we can manipulate with JavaScript.
 
 - What is the word "object" referring to in the phrase Document Object Model?
-  >  "Object" in DOM refers to how the HTML elements and attributes are preseneted as JS objects.
-  >   Things like, heading <h1>, paragraph <p>, or attributes "id='id'" is an object.
+
+  > "Object" in DOM refers to how the HTML elements and attributes are preseneted as JS objects.
+  > Things like, heading <h1>, paragraph <p>, or attributes "id='id'" is an object.
 
 - What is a DOM Tree?
-  >  DOM Tree is like a family tree for web pages. Where each HTML element, attribute, and text is a node. While elements nested within one another form a parent-child relationship.
+
+  > DOM Tree is like a family tree for web pages. Where each HTML element, attribute, and text is a node. While elements nested within one another form a parent-child relationship.
 
 - Give two examples of `document` methods that retrieve a single element from the DOM.
-  >  'document.querySelector(selector)': returns the firs element that matches a specified CSS selector.
-  >   'document.getElementById(id)': returns the element that matches it's ID.
+
+  > 'document.querySelector(selector)': returns the firs element that matches a specified CSS selector.
+  > 'document.getElementById(id)': returns the element that matches it's ID.
 
 - Give one example of a `document` method that retrieves multiple elements from the DOM at once.
-  >  'document.querySelectorAll('tag')': returns a NodeList of all elements in the document that match a specified CSS selector.
+
+  > 'document.querySelectorAll('tag')': returns a NodeList of all elements in the document that match a specified CSS selector.
 
 - Why might you want to assign the return value of a DOM query to a variable?
-  >  It lets you to work with that element later, avoiding the search again and makes your code cleaner and more efficient. 
+
+  > It lets you to work with that element later, avoiding the search again and makes your code cleaner and more efficient.
 
 - What `console` method allows you to inspect the properties of a DOM element object?
-  >  'console.dir()' - useful for understanding what you can do with an element.
-  >   This lets you see all properties and methods of a DOM element in the console.
+
+  > 'console.dir()' - useful for understanding what you can do with an element.
+  > This lets you see all properties and methods of a DOM element in the console.
 
 - Why would a `<script>` tag need to be placed at the bottom of the HTML content instead of at the top?
-  >  The HTML content loads first, preventing issues where JS tries to use elements that haven't loaded yet, ensuring everything works as expected.
+
+  > The HTML content loads first, preventing issues where JS tries to use elements that haven't loaded yet, ensuring everything works as expected.
 
 - What does `document.querySelector()` take as its argument and what does it return?
-  >  Takes a CSS selector and returns the first element in the document that matches the selector
-  >   If no match, returns 'null'
+
+  > Takes a CSS selector and returns the first element in the document that matches the selector
+  > If no match, returns 'null'
 
 - What does `document.querySelectorAll()` take as its argument and what does it return?
-  >  Takes a CSS selector and returns a NodeList of all elements in the document that match the selector.
-  >   If no match, returns an empty list.
+  > Takes a CSS selector and returns a NodeList of all elements in the document that match the selector.
+  > If no match, returns an empty list.
 
 ## Notes
 
