@@ -1,0 +1,48 @@
+body {
+  margin: 0 auto;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light {
+  height: 100%;
+  width: 100%;
+  background-color: #f7f5e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bulb {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.bulb.on {
+  background-color: #faea84;
+  border: 2px solid #f7e991;
+  box-shadow: 0 0 20px #f7e991;
+}
+
+.bulb.off {
+  background-color: rgb(58, 58, 58);
+  border: 1px solid black;
+  box-shadow: 0 -1em 2px black;
+}
