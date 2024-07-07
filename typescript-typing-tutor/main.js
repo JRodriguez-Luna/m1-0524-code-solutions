@@ -9,6 +9,6 @@ document.addEventListener('keydown', (event) => {
     currIndex++;
     $listOfText[currIndex].className = 'underline';
   } else {
-    $listOfText[currIndex].className = 'incorrect';
+    $listOfText[currIndex].className = 'underline incorrect';
   }
 });

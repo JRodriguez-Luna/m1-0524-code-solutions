@@ -21,4 +21,5 @@ body {
 
 .incorrect {
   color: red;
+  text-decoration-color: red;
 }
