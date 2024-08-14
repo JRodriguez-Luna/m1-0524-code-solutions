@@ -1,0 +1,500 @@
+   64  git commit -m "Completed css-canvas-medical"
+   65  git push origin css-canvas-medical 
+   66  git add -A
+   67  git commit -m "Small alingnment fix"
+   68  git push origin css-canvas-medical 
+   69  git pull origin css-canvas-medical 
+   70  git switch main
+   71  git pull origin main 
+   72  git branch dom-querying
+   73  git switch dom-querying
+   74  git switch main
+   75  git switch main
+   76  git pull origin main 
+   77  git branch dom-events
+   78  git switch dom-events 
+   79  cd dom-events/
+   80  npx tsc --watch
+   81  cd ..
+   82  git status
+   83  git add A-
+   84  git commit -m "Completed dom-events"
+   85  git add A-
+   86  git add -A
+   87  git commit -m "Completed dom-events"
+   88  git push origin dom-events 
+   89  git switch main
+   90  git branch dom-manipulation
+   91  git switch dom-manipulation 
+   92  cd dom-manipulation/
+   93  npx tsc --watch
+   94  cd ..
+   95  git status
+   96  git add -A
+   97  git commit -m "Compeleted dom-manipulation"
+   98  git add -A
+   99  git commit -m "Completed dom-manipulation"
+  100  git add -A
+  101  git commit -m "Completed dom-manipulation"
+  102  git push origin dom-manipulation 
+  103  cd dom-manipulation/
+  104  npx tsc --watch
+  105  cd ..
+  106  git add -A
+  107  git commit -m "Completed dom-manipulation"
+  108  git push origin dom-manipulation 
+  109  git switch main
+  110  git pull origin main 
+  111  git branch dom-creation
+  112  git switch dom-creation
+  113  cd dom-creation/
+  114  npx tsc --watch
+  115  cd ..
+  116  git status
+  117  git add dom-creation/
+  118  git commit -m "Completed dom-creation"
+  119  git push origin dom-creation 
+  120  git add -A
+  121  git commit -m "Completed dom-creation"
+  122  git push origin dom-creation 
+  123  git switch main
+  124  git pull origin main 
+  125  git branch typescript-modal
+  126  git switc h typescript-methods/
+  127  git switch typescript-modal 
+  128  git switch typescript-modal 
+  129  npx tsc --watch
+  130  cd typescript-modal/
+  131  npx tsc --watch
+  132  git status
+  133  git add -A
+  134  git commit -m "Completed typescript-modal"
+  135  git push origin typescript-modal 
+  136  cd ..
+  137  git switch main
+  138  git branch typescript-light-bulb
+  139  git switch typescript-light-bulb 
+  140  cd typescript-light-bulb/
+  141  npx tsc --watch
+  142  cd ..
+  143  git status
+  144  git add typescript-light-bulb/
+  145  git commit -m "Completed typescript-light-bulb"
+  146  git add -A
+  147  git commit -m "Completed typescript-light-bulb"
+  148  git push origin typescript-light-bulb 
+  149  git add -A
+  150  git commit -m "deleted console.log test"
+  151  git push origin typescript-light-bulb 
+  152  git status
+  153  git add -A
+  154  git commit -m "Completed typescript-light-bulb"
+  155  git push origin typescript-light-bulb 
+  156  git add -A
+  157  git commit -m "Completed typescript-light-bulb"
+  158  git push origin typescript-light-bulb 
+  159  git switch main
+  160  git pull origin main 
+  161  git branch typescript-forms
+  162  git switch typescript-forms 
+  163  cd typescript-forms/
+  164  npx tsc --watch
+  165  cd typescript-forms/
+  166  npx tsc --watch
+  167  npx tsc --watch
+  168  npx tec --watch
+  169  npx tsc --watch
+  170  cd typescript-forms/
+  171  npx tsc --watch
+  172  cd ..
+  173  git status
+  174  git add typescript-forms/
+  175  git commit -m 
+  176  git commit -m "Completed typescript-forms"
+  177  git push origin typescript-forms 
+  178  git switch main
+  179  git pull origin main
+  180  git branch typescript-view-swapping
+  181  git switch typescript-view-swapping
+  182  npx tsc --watch
+  183  cd typescript-view-swapping/
+  184  npx tsc --watch
+  185  cd ..
+  186  git status
+  187  git add typescript-view-swapping/
+  188  git commit -m "Completed typescript-view-swapping"
+  189  git push origin typescript-view-swapping 
+  190  git switch main
+  191  git branch typescript-and-json
+  192  git switch typescript-and-json
+  193  cd typescript-and-json/
+  194  npx tsc --watch
+  195  cd ..
+  196  git status
+  197  git add typescript-and-json/
+  198  git commit -m "Completed typescript-and-json"
+  199  git push origin typescript-and-json
+  200  git switch main
+  201  git pull origin main 
+  202  cd ..
+  203  git clone git@github.com:JRodriguez-Luna/code-journal.git
+  204  cd code-journal/
+  205  npm install
+  206  git status
+  207  git add css/styles.css 
+  208  git commit -m "Implement responsive layout and adjust styling to fluidly adapt for Mobile and Desktop viewports."
+  209  git commit --amend -m "Implement responsive layout and adjust styling to fluidly adapt for Mobile and Desktop viewports. #6"
+  210  git push origin issue-1-create-an-entry 
+  211  git pull origin issue-1-create-an-entry 
+  212  git branch
+  213  git status
+  214  git push origin issue-1-create-an-entry 
+  215   git push --help
+  216  branch
+  217  git pull origin main 
+  218  git branch
+  219  git branch issue-1-create-an-entry
+  220  git switch issue-1-create-an-entry 
+  221  git pull origin issue-1-create-an-entry
+  222  git branch
+  223  git status
+  224  git add css/styles.css 
+  225  git add index.html 
+  226  git commit -m "Modified img properties"
+  227  git push origin issue-1-create-an-entry 
+  228  git commit --amend -m "Modified img properties"
+  229  git commit --amend -m "Modified img properties #5"
+  230  git status
+  231  git status
+  232  git push origin issue-1-create-an-entry 
+  233  git pull origin issue-1-create-an-entry 
+  234  git fetch origin 
+  235  git status
+  236  git pull origin issue-1-create-an-entry 
+  237  git push origin issue-1-create-an-entry 
+  238  git log
+  239  git status
+  240  git add css/styles.css 
+  241  git commit -m "Fix/Add css style #7"
+  242  git status
+  243  git add index.html 
+  244  git commit -m "Remove class from textarea element"
+  245  git status
+  246  git push origin issue-1-create-an-entry 
+  247  git push origin issue-1-create-an-entry -f
+  248  git status
+  249  git add index.html 
+  250  git commit -m "Make all inputs of the journal entry form required."
+  251  git push origin issue-1-create-an-entry 
+  252  ls
+  253  cd ts
+  254  npx tsc --watch
+  255  cd ..\
+  256  git status
+  257  git add ts/main.ts 
+  258  git add js/
+  259  git add index.html 
+  260  git commit -m " Add an 'input' event listener to the Photo URL input that sets the src attribute of the photo preview to the input's value when the user types or pastes in a new URL. #10"
+  261  git commit -m " Add an 'input' event listener to the Photo URL input that sets the src attribute of the photo preview to the input's value when the user types or pastes in a new URL. #10"  --no-verify
+  262  git status
+  263  git log
+  264  git push origin issue-1-create-an-entry 
+  265  cd ts
+  266  npx tsc --watch
+  267  cd ..
+  268  git pull origin issue-1-create-an-entry 
+  269  git reset
+  270  git reset --hard
+  271  git status
+  272  git log
+  273  git reset --hard
+  274  git status
+  275  git add css/styles.css 
+  276  git commit -m "Redo stylesheet. #11"
+  277  git push origin issue-1-create-an-entry 
+  278  git add index.html 
+  279  git commit -m "Fix form element. #12"
+  280  git push origin issue-1-create-an-entry 
+  281  cd ts
+  282  npx tsc --watch
+  283  cd ts
+  284  npx tsc --watch
+  285  cd ..
+  286  git status
+  287  git add index.html
+  288  git commit -m "Fix and Change 'photo-url' to 'photoUrl'"
+  289  git push origin issue-1-create-an-entry 
+  290  git status
+  291  git add -A
+  292  git commit -m "Stores the form's input values in a new object. #14"
+  293  git push origin issue-1-create-an-entry 
+  294  cd ts
+  295  npx tsc --watch
+  296  cd ..
+  297  git status
+  298  git add -A
+  299  git commit -m "Add entryId property, increment nextEntryId, add entry, reset preview and form. #15"
+  300  git push origin issue-1-create-an-entry 
+  301  git status
+  302  cd ts
+  303  npx tsc --watch
+  304  cd ..
+  305  git add -A
+  306  git status
+  307  git commit -m "Replace any type with unkown type. #16"
+  308  git push origin issue-1-create-an-entry 
+  309  git status
+  310  git add ts/data.ts 
+  311  git add js/data.js 
+  312  git commit -m "Add localStorage functions for data serialization. #17"
+  313  cd ts
+  314  npx tsc --watch
+  315  cd ..
+  316  git status
+  317  git add ts/data.ts 
+  318  git commit -m "Add localStorage functions for data serialization"
+  319  cd ts
+  320  npx tsc --watch
+  321  cd ..
+  322  git add -A
+  323  git commit -m "Add localStorage functions for data serialization" --no-verify
+  324  cd ts
+  325  npx tsc --watch
+  326  cd ..
+  327  git push origin issue-1-create-an-entry 
+  328  cd ts
+  329  npx tsc --watch
+  330  cd ..
+  331  git status
+  332  git add -A
+  333  git commit -m "Save data model changes to localStorage; Ensure entryId increments for new journal entries. #17"
+  334  git commit -m "Save data model changes to localStorage; Ensure entryId increments for new journal entries. #17" --no-verify
+  335  git push origin issue-1-create-an-entry 
+  336  gti switch main
+  337  git switch main
+  338  git pull origin main 
+  339  git branch "issue-2-User-can-view-their-entries"
+  340  git switch issue-2-User-can-view-their-entries 
+  341  git fetch
+  342  git pull origin issue-2-User-can-view-their-entries 
+  343  cd ts
+  344  npx tsc --watch
+  345  npx tsc 00watch
+  346  npx tsc --watch
+  347  git add -A
+  348  git commit -m "Add functionality to the 'NEW' button to swap views as needed. #7"
+  349  git commit -m "Add functionality to the 'NEW' button to swap views as needed. #7"
+  350  git commit -m "Add functionality to the 'NEW' button to swap views as needed. #7"
+  351  git add -A
+  352  git commit -m "Add functionality to the 'NEW' button to swap views as needed. #7"
+  353  git log
+  354  cd ..
+  355  git push origin issue-2-User-can-view-their-entries 
+  356  git switch main
+  357  git pull origin main 
+  358  git branch issue-3-user-can-edit-an-entry
+  359  git switch issue-3-user-can-edit-an-entry 
+  360  cd ts
+  361  npx tsc --watch
+  362  cd ..
+  363  git statusa
+  364  git status
+  365  git add -A
+  366  git commit -m "Update the entry form's submit handler to edit entries and data. #4"
+  367  git status
+  368  git log
+  369  git push origin issue-3-user-can-edit-an-entry 
+  370  cd ts
+  371  npx tsc --watch
+  372  cd ..
+  373  git add -A
+  374  cd ts
+  375  npx tsc --watch
+  376  cd ..
+  377  git add -AQ
+  378  git add -A
+  379  git commit -m "Fix query on $titleForm and other minor errors. #5"
+  380  git push origin issue-3-user-can-edit-an-entry 
+  381  git switch main
+  382  git pull origin main 
+  383  git branc h
+  384  git branch
+  385  git branch issue-4-user-can-delete-an-entry
+  386  git switch issue-4-user-can-delete-an-entry
+  387  git fetch
+  388  git pull origin issue-4-user-can-delete-an-entry 
+  389  cd ts
+  390  npx tsc --watch
+  391  cd ..
+  392  cd ts
+  393  npx tsc --watch
+  394  git log
+  395  git status
+  396  git add -A
+  397  git commit -m "Add modal confirmation for user to delete entry. #3"
+  398  git commit -m "Add modal confirmation for user to delete entry. #3" --no-verify
+  399  git push origin issue-4-user-can-delete-an-entry 
+  400  npx tsc --watch
+  401  git switch main
+  402  git reset --hard
+  403  git fetch
+  404  git switch main
+  405  git pull origin main 
+  406  cd ..
+  407  cd week-planner
+  408  git fetch
+  409  git clone git@github.com:JRodriguez-Luna/week-planner.git
+  410  cd week-planner/
+  411  npm install
+  412  npm install
+  413  sudo npm install -g n
+  414  sudo n lts
+  415  hash -r
+  416  npm install
+  417  git branch
+  418  git branch issue-1-user-can-add-an-event-to-the-planner
+  419  git switch issue-1-user-can-add-an-event-to-the-planner 
+  420  git switch issue-1-user-can-add-an-event-to-the-planner -f
+  421  git switch main
+  422  git switch issue-1-user-can-add-an-event-to-the-planner 
+  423  git status
+  424  git add -A
+  425  git statusd
+  426  git status
+  427  git commit -m "Add some HTML Structure and styling. #1"
+  428  git push origin issue-1-user-can-add-an-event-to-the-planner 
+  429  git switch main
+  430  git switch issue-1-user-can-add-an-event-to-the-planner 
+  431  git log
+  432  git add -A
+  433  git commit -m "Organize and add space around 'Day of Week'. #2"
+  434  git push origin issue-1-user-can-add-an-event-to-the-planner 
+  435  git pull origin issue-1-user-can-add-an-event-to-the-planner 
+  436  git pull origin issue-1-user-can-add-an-event-to-the-planner 
+  437  git pull origin issue-1-user-can-add-an-event-to-the-planner 
+  438  git fetch
+  439  git pull index.html
+  440  git pull origin issue-1-user-can-add-an-event-to-the-planner 
+  441  git pull origin issue-1-user-can-add-an-event-to-the-planner 
+  442  cd ts
+  443  npx tsc --watch
+  444  npx tsc --watch
+  445  git reset --hard
+  446  git fetch
+  447  git pull origin issue-1-user-can-add-an-event-to-the-planner 
+  448  cd practice-interview-challenge/
+  449  npx tsc --watch
+  450  git branch practice-interview-problem
+  451  git switch practice-interview-problem 
+  452  npx tsc --watch
+  453  git status
+  454  git add -A
+  455  git commit -m "Completed practice-interview-problem"
+  456  git add -A
+  457  git add -A
+  458  git status
+  459  npx tsc --watch
+  460  git branch
+  461  git status
+  462  npx tsc --watch
+  463  cd practice-interview-challenge/
+  464  npx tsc --watch
+  465  git status
+  466  git add -A
+  467  git commit -m "Completed practice-interview-problem"
+  468  cd practice-interview-challenge/
+  469  git add -A
+  470  git commit -m "Completed practice-interview-problem"
+  471  git fetch
+  472  git switch typescript-timers
+  473  cd typescript-timers/
+  474  git pull origin typescript-timers 
+  475  list
+  476  ls
+  477  cd interval.html 
+  478  code .
+  479  git branch typescript-destructuring
+  480  git switch typescript-destructuring
+  481  cd typescript-destructuring/
+  482  npx tsc --watch
+  483  git status
+  484  git add -A
+  485  git commit -m "Completed typescript-destructuring"
+  486  cd ..
+  487  git push origin typescript-destructuring 
+  488  gti switch main
+  489  git switch main
+  490  git pull origin main
+  491  git branch typescript-carousel
+  492  git switch typescript-carousel
+  493  cd typescript-carousel
+  494  git switch main
+  495  git pull origin main 
+  496  git branch
+  497  git switch typescript-carousel 
+  498  cd typescript-carousel/
+  499  npx tsc --watch
+  500  npx tsc --watch
+  501  git switch main
+  502  git branch command-line-basics
+  503  git switch command-line-basics 
+  504  cd command-line-basics/
+  505  man man
+  506  man man
+  507  man cat
+  508  cat laziness.txt 
+  509  cat impatience.txt 
+  510  cat hubris.txt 
+  511  cat laziness.txt impatience.txt hubris.txt > three-virtes.txt
+  512  cat three-virtues.txt 
+  513  man ls
+  514  ls -a
+  515  ls -F
+  516  ls lfz-staff/
+  517  ls -aF lfz-staff/ >lfz-staff/contents.txt
+  518  cat lfz-staff/contents.txt 
+  519  man pwd
+  520  pwd > i-was-here.txt
+  521  ls
+  522  cat i-was-here.txt 
+  523  man echo
+  524  echo 'Hello, World!'
+  525  echo 'Hello, World!' > hello.txt
+  526  ls
+  527  cat hello.txt 
+  528  man touch
+  529  touch tag-youre-it.txt
+  530  touch snoot/boop.txt
+  531  ls snoot/
+  532  ls
+  533  man mkdir
+  534  man mkdir
+  535  mkdir parent
+  536  ls
+  537  mkdir -p parent/child/granchild
+  538  touch parent/child/granchild/.gitkeep
+  539  ls -a parent/child/granchild/
+  540  man mv
+  541  mv pokiemans > pokemon
+  542  mv pokiemans/ pokemon
+  543  man mv
+  544  mv pokiemans/ > pokemon
+  545  mv pokiemans/ > pokemon/
+  546  mv pokiemans/ pokemon/
+  547  mv pokiemans/* pokemon/
+  548  mv pokiemans pokemon
+  549  mv pokiemans pokemon
+  550  mv pokiemans pokemon
+  551  man rm
+  552  rm lol.txt 
+  553  ls
+  554  rm kill-me/ -r
+  555  ls
+  556  man cp
+  557  man cp
+  558  cp and-then.txt no-and-then.txt
+  559  ls
+  560  cat and-then.txt no-and-then.txt 
+  561  man history
+  562  history
+  563  history > command-history.txt
