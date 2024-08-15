@@ -5,10 +5,24 @@ const $dots = document.querySelectorAll('.dot');
 
 const images = ['001.png', '004.png', '007.png', '025.png', '039.png'];
 let count = 0;
+let intervalId: any;
 
 if (!$img) throw new Error('$img did not query!');
 if (!$prev) throw new Error('$prev did not query!');
 if (!$next) throw new Error('$next did not query!');
+
+function startAutoPlay(): void {
+  intervalId = setInterval(function () {
+    count++;
+    checkCount();
+    updateCarousel();
+  }, 3000);
+}
+
+function restartAutoPlay(): void {
+  clearInterval(intervalId);
+  startAutoPlay();
+}
 
 function updateCarousel(): void {
   $img.src = `./images/${images[count]}`;
@@ -24,16 +38,29 @@ function updateCarousel(): void {
   }
 }
 
-$next.addEventListener('click', () => {
-  count++;
-
+function checkCount(): void {
   if (count >= images.length) count = 0;
-  updateCarousel();
-});
+  else if (count < 0) count = images.length - 1;
+}
 
-$prev.addEventListener('click', () => {
-  count--;
+document.addEventListener('DOMContentLoaded', () => {
+  startAutoPlay();
 
-  if (count < 0) count = images.length - 1;
-  updateCarousel();
+  $next.addEventListener('click', () => {
+    clearInterval(intervalId);
+    count++;
+
+    checkCount();
+    updateCarousel();
+    restartAutoPlay();
+  });
+
+  $prev.addEventListener('click', () => {
+    clearInterval(intervalId);
+    count--;
+
+    checkCount();
+    updateCarousel();
+    restartAutoPlay();
+  });
 });
